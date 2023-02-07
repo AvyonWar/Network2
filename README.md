@@ -1,1 +1,1 @@
-REST AP OKHTTP -> https://rapidapi.com/newbAPIOfficial/api/planets-info-by-newbapi/
+REST API OKHTTP -> https://rapidapi.com/newbAPIOfficial/api/planets-info-by-newbapi/
