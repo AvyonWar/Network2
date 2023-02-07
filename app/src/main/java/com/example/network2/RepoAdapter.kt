@@ -13,7 +13,7 @@ class RepoViewHolder(view: View): RecyclerView.ViewHolder(view){
     }
 }
 
-class RepoAdapter(val repoResults: RepoResult): RecyclerView.Adapter<RepoViewHolder>() {
+class RepoAdapter(val repoResults: List<Country>): RecyclerView.Adapter<RepoViewHolder>() {
 
 
 
@@ -24,7 +24,7 @@ class RepoAdapter(val repoResults: RepoResult): RecyclerView.Adapter<RepoViewHol
     }
 
     override fun onBindViewHolder(holder: RepoViewHolder, position: Int) {
-        holder.repoName.text = repoResults[position].name
+        //holder.repoName.text = repoResults[position].name
     }
 
     override fun getItemCount(): Int {
